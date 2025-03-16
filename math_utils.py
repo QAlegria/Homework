@@ -19,7 +19,7 @@ def geometry_rectangle(param_1, param_2):
     return square_g
 
 def statistics_avg(param_list):
-    avg = sum(param_list)/2
+    avg = sum(param_list)/(len(param_list))
     print(f'Среднее арифметическое = {avg}')
     return avg
 
